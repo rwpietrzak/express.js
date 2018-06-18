@@ -1,5 +1,5 @@
-var gulp = require('gulp');
-var uglify = require('gulp-uglify');
+var gulp = require('gulp'); // importujemy gulp
+var uglify = require('gulp-uglify'); //minifakcja plikw
 
 gulp.task('buildjs', function() {
 	gulp.src('source/*.js')
